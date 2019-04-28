@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My First Game</title>
+  
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <img id="felicia" src="felicia.png">
+<section id= "hero"></section>
+<section id="form"></section>
+   <form>
+<strong>Change Hero Name:</strong><br>
+        <input type="text" id="userheroname"><br>
+        <button id="submit" onclick="changeHeroName(); return false">Submit</button>
+        </form>
+        <br />
+        <br />
+        <br />
+
+<img id="inn" class ="pictures" onClick="rest(hero); return false"src="4-star-hotel.png">
+<img id="dagger" class ="pictures" onClick="pickUpItem(hero, dagger); deleteElement('dagger'); return false" src="dagger.png">
+<img id="bag" class ="pictures" onClick="equipWeapon(hero); updateStats()" src="bag-magic.png">
+<br />
+<br />
+<br />
+<button id="attack" onClick="attackEnemy(); return false">Attack Enemy</button>
+<br />
+<br />
+<br />
+<img id="draino" onClick="deleteElement('draino')" src="enemy.png">
+<section id="enemy"></section>
+
+<script src="index.js"></script>
+</body>
+</html>
+ 

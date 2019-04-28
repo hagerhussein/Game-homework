@@ -1,0 +1,47 @@
+.pictures {
+    width: 180px;
+    height: 180px;
+}
+#felicia {
+    width: 500px;
+    height: 500px;
+}
+h1 {
+    font-size: 1.8em;
+    color: orange
+}
+form {
+    color: orange
+}
+#draino {
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+p {
+    color: rgb(68, 131, 224);
+    font-size: 1.1em;
+}
+#submit {
+   background: rgb(214, 5, 110);
+   font: bold;
+   border-color: rgb(214, 5, 110);
+   width: 90px;
+   height: 25px;
+   color: whitesmoke;
+   font-size: 14px;
+}
+html {
+    background-color: lightgrey;
+}
+#attack{
+    width: 250px;
+    height: 30px;
+    position: relative;
+    left: 200px;
+    background: rgb(214, 5, 110);
+    font: bold;
+    border-color: rgb(214, 5, 110);
+    color: whitesmoke;
+    font-size: 14px;
+}
